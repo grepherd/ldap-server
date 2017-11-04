@@ -11,4 +11,4 @@ COPY ldap.conf /etc/ldap/ldap.conf
 
 EXPOSE 389
 
-CMD slapd
+CMD slapd && bash
