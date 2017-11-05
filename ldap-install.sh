@@ -39,3 +39,5 @@ send "yes\r"
 
 expect "Allow LDAPv2"
 send "no\r"
+
+expect eof
