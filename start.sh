@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t ldap-server .
-docker run -td -p 389:389 ldap-server
+sudo docker build -t ldap-server .
+sudo docker run -td -p 389:389 -p 80:80 ldap-server
