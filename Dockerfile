@@ -9,7 +9,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils expec
     expect tools/ldap-install.sh
 
 COPY ldap.conf /etc/ldap/ldap.conf
-COPY phpldapadmin-config.php /etc/phpldapadmin/config.php
 
 EXPOSE 389
 
